@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice 7</title>
 </head>
+
 <body>
-    <form action="formulaire" id="formulaire">
+    <form action="#" id="formulaire" method="POST">
         <div>
-            <label for="birthdate">Entrez votre age</label>
-            <input type="text" id="birthdate" name="birthdate">
+            <label for="birthDate">Entrez votre age</label>
+            <input type="number" id="birthDate" name="birthDate">
+            <button type="button" id="send"> Envoyer </button>
+            <button type="button" id="send2"> Envoyer avec html</button>
         </div>
-        <button type="button" id="send"> Envoyer </button>
+    </form>
+    <p id="paragraph"></p>
+    
         <script src="assets/js/script.js"></script>
 </body>
+
 </html>
